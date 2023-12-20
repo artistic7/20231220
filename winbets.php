@@ -110,7 +110,7 @@ for ($raceNumber = 1; $raceNumber <= $totalRaces; $raceNumber++) {
         $allTrioValues = [];
         $TrioText = "[";
         $someCounter = 0;
-        $someLength = count($qin);
+        $someLength = count($trio);
         foreach($trio as $trioItem){
             $allTrioValues = array_values(array_unique(array_merge($allTrioValues, $trioItem)));
             $TrioText .= "[" . implode(", ", $trioItem) . "]";
