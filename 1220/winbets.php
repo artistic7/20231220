@@ -6,153 +6,85 @@ return [
 		Race 1
 		*/
 		'Favorite       '  =>  '2',
-		'Second Favorite'  =>  '3',
 		'Win Set Win Bets'  =>  [
 			'2' => '20 HKD',
 			'3' => '20 HKD',
 			'8' => '10 HKD',
 			'1' => '10 HKD',
 		],
-		'Total Bets set 1'  =>  '60 HKD',
-		'Qin Set Win Bets'  =>  [
-			'2' => '30 HKD',
-			'3' => '20 HKD',
-			'8' => '20 HKD',
-			'4' => '20 HKD',
-			'1' => '20 HKD',
-		],
-		'Total Bets set 2'  =>  '110 HKD',
-		'Win Bets Based on 1st and 2nd favorites'  =>  [
-			'2' => '0 HKD',
-			'3' => '0 HKD',
-			'7' => '0 HKD',
-			'8' => '0 HKD',
-			'6' => '0 HKD',
-			'4' => '0 HKD',
-			'1' => '0 HKD',
-		],
-		'Total Bets set 3'  =>  '0 HKD',
+		'Total Win Bets'  =>  '60 HKD',
+		'qin'         =>  [[1, 2], [2, 12], [3, 4], [8, 12]] ,
+		'qin values'  =>  '2, 3, 8, 4, 1',
+		'trio'        =>  [[1, 2, 3], [2, 3, 4], [2, 5, 12], [2, 8, 12]] ,
+		'trio values' =>  '2, 3, 8, 4, 1, 5',
 	],
 	'2' => [
 		/**
 		Race 2
 		*/
 		'Favorite       '  =>  '9',
-		'Second Favorite'  =>  '3',
 		'Win Set Win Bets'  =>  [
 			'9' => '10 HKD',
 			'3' => '10 HKD',
 		],
-		'Total Bets set 1'  =>  '20 HKD',
-		'Qin Set Win Bets'  =>  [
-			'9' => '20 HKD',
-			'3' => '20 HKD',
-			'11' => '10 HKD',
-			'2' => '10 HKD',
-		],
-		'Total Bets set 2'  =>  '60 HKD',
-		'Win Bets Based on 1st and 2nd favorites'  =>  [
-			'9' => '30 HKD',
-			'3' => '20 HKD',
-			'7' => '10 HKD',
-			'10' => '10 HKD',
-			'4' => '10 HKD',
-			'2' => '10 HKD',
-			'12' => '10 HKD',
-		],
-		'Total Bets set 3'  =>  '100 HKD',
+		'Total Win Bets'  =>  '20 HKD',
+		'qin'         =>  [[2, 9], [3, 11]] ,
+		'qin values'  =>  '9, 3, 11, 2',
+		'trio'        =>  [[2, 3, 9], [3, 7, 11]] ,
+		'trio values' =>  '9, 3, 7, 11, 2',
 	],
 	'3' => [
 		/**
 		Race 3
 		*/
 		'Favorite       '  =>  '8',
-		'Second Favorite'  =>  '6',
 		'Win Set Win Bets'  =>  [
 			'8' => '20 HKD',
 			'1' => '10 HKD',
 			'10' => '10 HKD',
 		],
-		'Total Bets set 1'  =>  '40 HKD',
-		'Qin Set Win Bets'  =>  [
-			'8' => '40 HKD',
-			'6' => '20 HKD',
-			'1' => '20 HKD',
-			'10' => '10 HKD',
-			'11' => '10 HKD',
-		],
-		'Total Bets set 2'  =>  '100 HKD',
-		'Win Bets Based on 1st and 2nd favorites'  =>  [
-			'8' => '30 HKD',
-			'1' => '20 HKD',
-			'12' => '20 HKD',
-			'4' => '10 HKD',
-			'10' => '10 HKD',
-		],
-		'Total Bets set 3'  =>  '90 HKD',
+		'Total Win Bets'  =>  '40 HKD',
+		'qin'         =>  [[1, 6], [8, 10], [8, 11]] ,
+		'qin values'  =>  '8, 6, 1, 10, 11',
+		'trio'        =>  [[1, 3, 6], [7, 8, 10], [8, 9, 11]] ,
+		'trio values' =>  '8, 6, 1, 3, 7, 10, 9, 11',
 	],
 	'4' => [
 		/**
 		Race 4
 		*/
 		'Favorite       '  =>  '6',
-		'Second Favorite'  =>  '9',
 		'Win Set Win Bets'  =>  [
 			'6' => '10 HKD',
 			'4' => '10 HKD',
 		],
-		'Total Bets set 1'  =>  '20 HKD',
-		'Qin Set Win Bets'  =>  [
-			'6' => '20 HKD',
-			'12' => '10 HKD',
-			'4' => '10 HKD',
-			'7' => '10 HKD',
-		],
-		'Total Bets set 2'  =>  '50 HKD',
-		'Win Bets Based on 1st and 2nd favorites'  =>  [
-			'6' => '20 HKD',
-			'9' => '10 HKD',
-			'4' => '10 HKD',
-			'8' => '10 HKD',
-		],
-		'Total Bets set 3'  =>  '50 HKD',
+		'Total Win Bets'  =>  '20 HKD',
+		'qin'         =>  [[4, 7], [6, 12]] ,
+		'qin values'  =>  '6, 12, 4, 7',
+		'trio'        =>  [[1, 6, 12], [4, 6, 7]] ,
+		'trio values' =>  '6, 1, 12, 4, 7',
 	],
 	'5' => [
 		/**
 		Race 5
 		*/
 		'Favorite       '  =>  '6',
-		'Second Favorite'  =>  '2',
 		'Win Set Win Bets'  =>  [
 			'6' => '80 HKD',
 			'4' => '10 HKD',
 			'3' => '10 HKD',
 		],
-		'Total Bets set 1'  =>  '100 HKD',
-		'Qin Set Win Bets'  =>  [
-			'6' => '0 HKD',
-			'5' => '0 HKD',
-			'4' => '0 HKD',
-			'1' => '0 HKD',
-			'3' => '0 HKD',
-		],
-		'Total Bets set 2'  =>  '0 HKD',
-		'Win Bets Based on 1st and 2nd favorites'  =>  [
-			'6' => '0 HKD',
-			'2' => '0 HKD',
-			'8' => '0 HKD',
-			'7' => '0 HKD',
-			'4' => '0 HKD',
-			'3' => '0 HKD',
-		],
-		'Total Bets set 3'  =>  '0 HKD',
+		'Total Win Bets'  =>  '100 HKD',
+		'qin'         =>  [[1, 3], [5, 6], [4, 9], [4, 10]] ,
+		'qin values'  =>  '6, 5, 4, 1, 3',
+		'trio'        =>  [[1, 3, 6], [2, 5, 6], [4, 6, 9], [4, 9, 10]] ,
+		'trio values' =>  '6, 2, 5, 4, 1, 3',
 	],
 	'6' => [
 		/**
 		Race 6
 		*/
 		'Favorite       '  =>  '2',
-		'Second Favorite'  =>  '4',
 		'Win Set Win Bets'  =>  [
 			'2' => '50 HKD',
 			'4' => '20 HKD',
@@ -160,88 +92,42 @@ return [
 			'5' => '20 HKD',
 			'8' => '10 HKD',
 		],
-		'Total Bets set 1'  =>  '120 HKD',
-		'Qin Set Win Bets'  =>  [
-			'2' => '0 HKD',
-			'4' => '0 HKD',
-			'10' => '0 HKD',
-			'5' => '0 HKD',
-			'7' => '0 HKD',
-			'8' => '0 HKD',
-			'9' => '0 HKD',
-			'6' => '0 HKD',
-		],
-		'Total Bets set 2'  =>  '0 HKD',
-		'Win Bets Based on 1st and 2nd favorites'  =>  [
-			'2' => '0 HKD',
-			'4' => '0 HKD',
-			'10' => '0 HKD',
-			'3' => '0 HKD',
-			'5' => '0 HKD',
-			'7' => '0 HKD',
-			'8' => '0 HKD',
-			'6' => '0 HKD',
-		],
-		'Total Bets set 3'  =>  '0 HKD',
+		'Total Win Bets'  =>  '120 HKD',
+		'qin'         =>  [[2, 6], [2, 7], [4, 5], [4, 7], [7, 8], [8, 10], [9, 10]] ,
+		'qin values'  =>  '2, 4, 10, 5, 7, 8, 9, 6',
+		'trio'        =>  [[1, 4, 5], [2, 4, 6], [2, 4, 7], [2, 7, 14], [3, 9, 10], [5, 7, 8], [5, 8, 10]] ,
+		'trio values' =>  '2, 4, 10, 3, 5, 7, 8, 1, 9, 6',
 	],
 	'7' => [
 		/**
 		Race 7
 		*/
 		'Favorite       '  =>  '1',
-		'Second Favorite'  =>  '3',
 		'Win Set Win Bets'  =>  [
 			'1' => '10 HKD',
 			'2' => '10 HKD',
 			'4' => '10 HKD',
 			'7' => '10 HKD',
 		],
-		'Total Bets set 1'  =>  '40 HKD',
-		'Qin Set Win Bets'  =>  [
-			'1' => '30 HKD',
-			'3' => '30 HKD',
-			'2' => '30 HKD',
-			'10' => '20 HKD',
-			'4' => '10 HKD',
-			'11' => '10 HKD',
-			'7' => '10 HKD',
-			'6' => '10 HKD',
-		],
-		'Total Bets set 2'  =>  '150 HKD',
-		'Win Bets Based on 1st and 2nd favorites'  =>  [
-			'1' => '20 HKD',
-			'3' => '20 HKD',
-			'2' => '20 HKD',
-			'9' => '20 HKD',
-			'4' => '10 HKD',
-			'7' => '10 HKD',
-		],
-		'Total Bets set 3'  =>  '100 HKD',
+		'Total Win Bets'  =>  '40 HKD',
+		'qin'         =>  [[1, 2], [1, 3], [1, 6], [1, 10], [2, 7], [4, 11], [7, 10]] ,
+		'qin values'  =>  '1, 3, 2, 10, 4, 11, 7, 6',
+		'trio'        =>  [[1, 2, 4], [1, 2, 6], [1, 2, 8], [1, 2, 10], [1, 3, 10], [1, 4, 11], [1, 7, 10][1, 10, 13][2, 7, 10][3, 7, 10]] ,
+		'trio values' =>  '1, 3, 2, 8, 10, 4, 11, 7, 6',
 	],
 	'8' => [
 		/**
 		Race 8
 		*/
 		'Favorite       '  =>  '8',
-		'Second Favorite'  =>  '6',
 		'Win Set Win Bets'  =>  [
 			'8' => '10 HKD',
 			'1' => '10 HKD',
 		],
-		'Total Bets set 1'  =>  '20 HKD',
-		'Qin Set Win Bets'  =>  [
-			'8' => '20 HKD',
-			'9' => '10 HKD',
-			'1' => '10 HKD',
-			'4' => '10 HKD',
-		],
-		'Total Bets set 2'  =>  '50 HKD',
-		'Win Bets Based on 1st and 2nd favorites'  =>  [
-			'8' => '20 HKD',
-			'6' => '20 HKD',
-			'1' => '10 HKD',
-			'11' => '10 HKD',
-		],
-		'Total Bets set 3'  =>  '60 HKD',
+		'Total Win Bets'  =>  '20 HKD',
+		'qin'         =>  [[1, 9], [4, 8], [8, 13]] ,
+		'qin values'  =>  '8, 9, 1, 4',
+		'trio'        =>  [[1, 8, 9], [3, 8, 13], [4, 8, 12]] ,
+		'trio values' =>  '8, 12, 9, 3, 1, 4',
 	],
 ];
